@@ -1,9 +1,11 @@
 class Mytime < Formula
     homepage "https://github.com/SmallFishCode/homebrew-mytime"
     url "https://github.com/SmallFishCode/homebrew-mytime/releases/download/v0.0.4/mytime-v0.0.4.tar.gz"
-    sha256 "f173a64b2e2317afc77095970b4a8964eeab87c38d9c35331da17af2c59e5706"
+    sha256 "68957750dae15b57034071009d76e0f2a3e44e928eb61dffc5a3de0e58211c37"
     version "0.0.4"
-  
+
+    # url是指向你在GitHub上托管的tarball文件的URL，其中包含了打包好的脚本。你需要创建一个 release 并上传tarball文件，然后将文件的URL放到url字段。请确保遵循语义化版本控制规范时进行版本控制。
+    # sha256是你的tarball文件的SHA256哈希值。在终端中运行shasum -a 256 your_tarball以获取哈希值。
   
     depends_on "node"
 
