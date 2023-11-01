@@ -6,7 +6,7 @@ class Mytime < Formula
   
   
     def install
-        bin.install "mytime"
+        bin.install "mytime.js"
     end
   
     test do
